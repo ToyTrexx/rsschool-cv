@@ -1,16 +1,19 @@
-# Yuri Zhukovsky #
+# Yuri Zhukovsky 
 
-## Junior Frontend Developer ##
+## Junior Frontend Developer
+--- 
 
 
 ### My Contacts ###
-** Location: Ufa, Russia
-** Phone: +7927-316-20-20
-** Email: yu.zmail@yahoo.com
-** Github: ToyTrexx
+
+**Location:** *Ufa, Russia*
+**Phone:** *+7927-316-20-20*
+**Email:** *yu.zmail@yahoo.com*
+**Github:** *ToyTrexx*
+**Telegram:** *@toytrexx*
+
+---
 
 ### About Me
 
 **
-
-
