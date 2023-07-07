@@ -12,8 +12,6 @@
 :space_invader:**Github:** _ToyTrexx_
 :pager:**Telegram:** _@toytrexx_
 
----
-
 ### About Me
 
 _I can say about me that I much time wanderended for different jobs before to come into the bank, there I met with people from department of programming development which recommended I start to learn about the profession front-end developer._
