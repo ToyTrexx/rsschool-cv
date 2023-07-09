@@ -20,6 +20,10 @@
     box-sizing: border-box;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 .body {
     min-height: 100vh;
     display: flex;
@@ -45,4 +49,25 @@
 .container {
     max-width: 1440px;
     margin: 0 auto;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    list-style: none;
+  }
+
+  .nav-list li:hover {
+    font-weight: 700;
+    background-color:rgb(230, 247, 237);
+    border-radius: 30px;
+    transition: all 0.5s ease-out;
+  }
+
+  .nav-link {
+    padding: 0 20px;
+    line-height: 50px;
+    color: black;
+    text-decoration: none;
   }
