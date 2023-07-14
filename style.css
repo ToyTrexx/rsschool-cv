@@ -43,7 +43,6 @@ body {
 
 .header {
   background: #302F2E;
-  border: 1px solid red;
   margin-bottom: 40px;
 }
 
@@ -89,6 +88,12 @@ a {
   text-decoration: none;
 }
 
+.main {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
 .main-container {
   max-width: 1440px;
   margin: 0 auto;
@@ -107,8 +112,6 @@ pre {
 
 .profile {
   grid-area: 1 / 1 / 2 / 3;
-  border: 1px solid slateblue;
-  border-radius: 25px 25px 25px 25px;
 }
 
 .avatar {
@@ -156,8 +159,6 @@ h1:hover {
 
 .summary {
   grid-area: 2 / 1 / 3 / 2;
-  border: 1px solid slateblue;
-  border-radius: 25px 25px 25px 25px;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -166,8 +167,6 @@ h1:hover {
 
 .contacts {
   grid-area: 2 / 2 / 3 / 3;
-  border: 1px solid slateblue;
-  border-radius: 25px 25px 25px 25px;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -176,8 +175,6 @@ h1:hover {
 
 .skills {
   grid-area: 3 / 1 / 4 / 2;
-  border: 1px solid slateblue;
-  border-radius: 25px 25px 25px 25px;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -186,8 +183,6 @@ h1:hover {
 
 .code {
   grid-area: 3 / 2 / 4 / 3;
-  border: 1px solid slateblue;
-  border-radius: 25px 25px 25px 25px;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -196,8 +191,6 @@ h1:hover {
 
 .courses {
   grid-area: 4 / 1 / 5 / 2;
-  border: 1px solid slateblue;
-  border-radius: 25px 25px 25px 25px;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -206,8 +199,6 @@ h1:hover {
 
 .projects {
   grid-area: 4 / 2 / 5 / 3;
-  border: 1px solid slateblue;
-  border-radius: 25px 25px 25px 25px;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -216,8 +207,6 @@ h1:hover {
 
 .education {
   grid-area: 5 / 1 / 6 / 2;
-  border: 1px solid slateblue;
-  border-radius: 25px 25px 25px 25px;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -226,8 +215,6 @@ h1:hover {
 
 .languages {
   grid-area: 5 / 2 / 6 / 3;
-  border: 1px solid slateblue;
-  border-radius: 25px 25px 25px 25px;
   display: flex;
   flex-flow: column wrap;
   align-items: center;
@@ -256,7 +243,9 @@ h1:hover {
   flex-wrap: nowrap;
   justify-content: space-evenly;
   gap: 20px;
-} .copyright > p{
+}
+
+.copyright>p {
   font-size: 24px;
   color: tomato;
 }
